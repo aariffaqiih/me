@@ -1,0 +1,14 @@
+* {
+  font-family: "Onest";
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --blue: rgb(0, 64, 221);
+  --cyan: rgb(10, 132, 255);
+  --black: rgb(28, 28, 30);
+  --gray: rgb(142, 142, 147);
+  --white: rgb(242, 242, 247);
+}
