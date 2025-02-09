@@ -4,13 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="a.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
-      <ul>
-        <li>Tentang</li>
+      <a href="/">
+        <img a href="/" src="https://avatars.githubusercontent.com/u/154689194"
+      /></a>
+      <div class="hamburger" onclick="toggleHamburger()">
+        <i class="bx bx-menu"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/certificates.html">Certificates</a></li>
       </ul>
     </nav>
+    <div class="theme-toggle" onclick="toggleTheme()">
+      <i class="bx bxs-sun"></i> <i class="bx bxs-moon"></i>
+    </div>
+    <div class="face">
+      <h1 class="AR">'Aarif <span>Rahmaan</span></h1>
+      <h1 class="JF"><span>Jalaluddin</span> Faqiih</h1>
+      <div class="headline">
+        <p><i class="bx bx-code"></i> Frontend Web Developer</p>
+        <div class="II">|</div>
+        <p><i class="bx bx-bar-chart-square"></i> Data Enthusiast</p>
+        <div class="II">|</div>
+        <p><i class="bx bx-equalizer"></i> Music Composer</p>
+      </div>
+      <div id="rain"></div>
+    </div>
+    <div class="hello">
+      <div class="text">
+        <h2>Halo!</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          praesentium labore, ipsam quibusdam itaque delectus cumque omnis
+          veniam quaerat! Nemo, est saepe velit neque vitae sint labore quo
+          cumque ad itaque repudiandae qui impedit optio hic blanditiis, ipsa
+          sit totam placeat asperiores nisi maxime.
+        </p>
+      </div>
+      <img
+        src="https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png"
+      />
+    </div>
+    <div class="projects">
+      <h2>Projects</h2>
+      <div class="carousel">
+        <div class="field">
+          <div class="image"></div>
+          <div class="name">
+            <h3>Code</h3>
+            <i class="bx bx-right-arrow-alt"></i>
+          </div>
+        </div>
+        <div class="field">
+          <div class="image"></div>
+          <div class="name">
+            <h3>Design</h3>
+            <i class="bx bx-right-arrow-alt"></i>
+          </div>
+        </div>
+        <div class="field">
+          <div class="image"></div>
+          <div class="name">
+            <h3>Music</h3>
+            <i class="bx bx-right-arrow-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h2>
+        'AARIF <span>RAHMAAN </span>'AARIF <span>RAHMAAN </span>'AARIF
+        <span>RAHMAAN </span>'AARIF <span>RAHMAAN </span>'AARIF
+        <span>RAHMAAN </span>'AARIF <span>RAHMAAN </span>'AARIF
+        <span>RAHMAAN </span>
+      </h2>
+      <h3>
+        JALALUDDIN <span>FAQIIH </span>JALALUDDIN <span>FAQIIH </span>JALALUDDIN
+        <span>FAQIIH </span>JALALUDDIN <span>FAQIIH </span> JALALUDDIN
+        <span>FAQIIH </span>
+        JALALUDDIN <span>FAQIIH </span>
+      </h3>
+    </footer>
   </body>
 </html>
+<script src="a.js"></script>
